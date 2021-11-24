@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Date from '../components/date'
 import map from 'lodash/map'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 type Props = {
   allPostsData: {
